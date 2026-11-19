@@ -1,0 +1,39 @@
+{
+  "name": "opencode-usage-monitor",
+  "version": "1.0.0",
+  "description": "OpenCode TUI sidebar section for OpenCode Go usage limits (5-hour, weekly, monthly).",
+  "type": "module",
+  "exports": {
+    "./tui": "./src/tui.tsx"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-tui",
+    "usage",
+    "opencode-go"
+  ],
+  "author": "optimusl77",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimusl77/opencode-usage-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/optimusl77/opencode-usage-monitor/issues"
+  },
+  "homepage": "https://github.com/optimusl77/opencode-usage-monitor#readme",
+  "dependencies": {
+    "@opencode/plugin": "^2.3.2"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.6.6",
+    "@opentui/solid": ">=0.6.6",
+    "solid-js": ">=1.9.0"
+  }
+}
